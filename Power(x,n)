@@ -1,0 +1,16 @@
+class Solution {
+    public double myPow(double x, int n) {
+        
+          x=2; 
+        n=10;
+        long result =1;
+        
+        while (n!=0){
+            result*=x;
+            n--;
+        }
+        // System.out.println (result);
+            return result;
+
+    }
+    }
